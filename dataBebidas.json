@@ -1,0 +1,12 @@
+[
+    {
+        "tipo":"Capucchino",
+        "imagen":"https://cdn2.cocinadelirante.com/sites/default/files/images/2023/06/como-hacer-capuchino-licuadora.jpg",
+        "precio":"S/ 12.50"
+    },
+    {
+        "tipo":"frappuccino",
+        "imagen":"https://wearenotmartha.com/wp-content/uploads/twix-frappuccino-featured.jpg",
+        "precio":"S/ 15.50"
+    }
+]

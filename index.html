@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="formulario" class="mostrar">
+        <table>
+            <td>
+                <img src="img/fondoLogo.png" alt="logotipo" width="565px">
+            </td>
+            <td>
+                <div class="container" >
+
+                    <h1>INICIAR SESIÓN</h1>
+                    <br><br>
+                    <p>Correo Electrónico</p>
+                    <br>
+                    <input type="text" id="txtEmail">
+                    <br><br>
+                    <p>Contraseña:</p>
+                    <br>
+                    <input type="password" id="txtPassword">
+                    <br><br>
+                    <input type="button" value="Registrar" id="btnRegistrar" class="button">
+                    <input type="button" value="Ingresar" id="btnIngresar" class="button">
+                    <br><br>
+                    <img src="img/goog.png" width="150px" id="btnGoogle" alt="google" type="button" style="padding: 14px;">
+                    <img src="img/face.png" width="150px" id="btnFacebook" alt="facebook" type="button" style="padding-left: 3px">
+                </div>
+            </td>
+        </table>
+    </div>
+
+    <div id="contenidoDeWeb" class="contenidoDeWeb ocultar">
+        <div>
+            <table class="color">
+                <td>
+
+                    <img src="img/logo.png" alt="logotipo" width="150px" style="padding-left: 70px;">
+
+                </td>
+                <td>
+                    <h2><a style="padding-left: 200px; font-size: 40px;">"El rico aroma del café"</a></h2>
+                </td>
+                <td>
+                    <input type="button" value="Cerrar sesión" id="btnCerrar" class="button" style="margin-left: 120px;padding-right: 45px;">
+                </td>
+            </table>
+        </div>
+        <hr>
+        <table class="centrar color">
+            <td>
+                <input id="btnBebidas" type="button" value="BEBIDAS">
+            </td>
+            <td>
+                <input id="btnPostres" type="button" value="POSTRES">
+            </td>
+            <td>
+                <input id="btnOfertas" type="button" value="OFERTAS">
+            </td>
+            <td>
+                <input id="btnAccesorios" type="button" value="ACCESORIOS">
+            </td>
+        </table>
+
+        <hr>
+
+        <div id="resultado" class="mostrar" style="padding: 50px; padding-left: 400px; padding-right: 400px;">
+            <h1>Aqui va la interfaz</h1>
+        </div>
+        <div id="contenidoDeBebidas" class="ocultar" style="padding: 50px; padding-left: 400px; padding-right: 400px;">
+            <h1>Aqui va la interfaz</h1>
+        </div>
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
